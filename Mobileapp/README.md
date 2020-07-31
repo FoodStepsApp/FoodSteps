@@ -38,3 +38,15 @@ git clone https://github.com/statwig-public/FoodSteps.git
   * On Android:
   ```sh
     Run `npx react-native run-android` or `yarn android`
+  ```
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b foodsteps`)
+3. Commit your Changes (`git commit -m 'Initial commit'`)
+4. Push to the Branch (`git push origin foodsteps`)
+5. Open a Pull Request
+    
