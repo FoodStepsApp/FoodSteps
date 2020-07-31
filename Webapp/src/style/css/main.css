@@ -1,0 +1,56 @@
+.cust-nav-bg{background: #233c46;}
+  .font-weight-bold{ font-weight:normal !important;}
+tr th{ font-weight: normal;}
+
+.topbar .navbar-search{width: 30rem !important;}
+
+tr td{
+
+  font-weight: 300 !important;
+  font-size: .8em;
+}
+
+.highcharts-credits{display: none !important;}
+.cust-text{
+
+  color:#273238 !important;
+}
+
+.nav.nav-tabs a{ color:#273238 !important;}
+
+
+#wrapper #content-wrapper{background: #f4f6f7;}
+
+.table{
+  color: #273238 !important;
+}
+
+.dropdown .dropdown-menu .dropdown-header{
+
+  color: #273238 !important;
+}
+
+.topbar .navbar-search input{
+
+  font-size: 1rem;
+
+font-weight: lighter;
+}
+
+.sidebar .nav-item .nav-link span{
+  font-weight: lighter;
+}
+
+.overview-block .card-body .donutchart {
+    width: 120%;
+    height: 373px;
+}
+
+
+.addProduct {
+    display: block !important;
+}
+
+.quantityTable .table td {
+    max-width: 100px;
+}
