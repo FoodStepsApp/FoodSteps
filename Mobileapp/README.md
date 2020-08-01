@@ -26,7 +26,7 @@ This is an example of how you may give instructions on setting up your project
 
 1. Clone the repo
 ```sh
-git clone https://github.com/statwig-public/FoodSteps.git
+git clone https://github.com/FoodStepsApp/FoodSteps.git
 ```
 2. Go to project's root directory, `cd <your project name>`
 3. Install dependencies:
