@@ -1,7 +1,7 @@
 import axios from 'axios';
 import cookie from "react-cookies";
-//const url = "http://127.0.0.1:5000";
- const url = "http://3.82.210.58:5000";  //prod url
+//const url = "Blockchain_URL";
+ const url = "Blockchain_PRDURL";  
 
 export const FETCH_CURRENT_USER = "FETCH_CURRENT_USER";
 
