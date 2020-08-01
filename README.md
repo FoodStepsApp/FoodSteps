@@ -5,11 +5,8 @@
 
 * [About the Project](#about-the-project)
 * [Built With](#built-with)
-* [Getting Started](#getting-started)
 * [License](#license)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
-
 
 
 <!-- ABOUT THE PROJECT -->
@@ -40,9 +37,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Please contact us at - contactus@statwig.com
-
-Project Link:https://github.com/statwig-public/FoodSteps.git
+Project Link:https://github.com/FoodStepsApp/FoodSteps.git
 
 
 
