@@ -1,0 +1,169 @@
+{
+	"info": {
+		"_postman_id": "794b6861-7f13-4164-90ca-356d64c7bdb9",
+		"name": "FavoriteService",
+		"description": "Fav Service to add Ideas to Favorites",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Fav an Idea user-1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n\"user\":\r\n     {\r\n     \"_id\":\"5d6ede6a0ba62570afcedd3b\"\r\n     },\r\n\"favorite\":\r\n     {\r\n     \"_id\":\"5d6ede6a0ba62570afcedd31\",\r\n     \"idea_owner\": \"String\",\r\n     \"idea_owner_name\": \"String2\",\r\n     \"idea_genre\": \"String3\",\r\n     \"idea_headline\": \"String idea_name\",\r\n     \"idea_description\": \"String idea_description\",\r\n     \"price\": 50\r\n     } \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9000/api/fav/",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"fav",
+						""
+					]
+				},
+				"description": "Fav an Idea user-1"
+			},
+			"response": []
+		},
+		{
+			"name": "Fav an Idea-1 user-2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n\"user\":\r\n     {\r\n     \"_id\":\"5d6ede6a0ba62570afcedd3a\"\r\n     },\r\n\"favorite\":\r\n     {\r\n     \"_id\":\"5d6ede6a0ba62570afcedd33\",\r\n     \"idea_owner\": \"String\",\r\n     \"idea_owner_name\": \"String2\",\r\n     \"idea_genre\": \"String3\",\r\n     \"idea_headline\": \"String idea_name\",\r\n     \"idea_description\": \"String idea_description\",\r\n     \"price\": 50\r\n     } \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9000/api/fav/",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"fav",
+						""
+					]
+				},
+				"description": "Another Idea to fav by User-1"
+			},
+			"response": []
+		},
+		{
+			"name": "Get all favorites of User-2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9000/api/favorites/5d6ede6a0ba62570afcedd3b",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"favorites",
+						"5d6ede6a0ba62570afcedd3b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Remove an Idea from fav User-1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"user\":{\r\n     \"_id\":\"5d6ede6a0ba62570afcedd3b\"\r\n},\r\n \"favorite\":{\r\n         \"_id\":\"5d6ede6a0ba62570afcedd31\"\r\n } \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9000/api/unfav/",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"unfav",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all favs of user-1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9000/api/favorites/5d6ede6a0ba62570afcedd3b",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"favorites",
+						"5d6ede6a0ba62570afcedd3b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Remove Idea from Fav",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"user\":{\r\n     \"_id\":\"5d6ede6a0ba62570afcedd3b\"\r\n},\r\n \"favorite\":{\r\n         \"_id\":\"5d6ede6a0ba62570afcedd31\"\r\n } \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9000/api/unfav/",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"unfav",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
