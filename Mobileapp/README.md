@@ -14,7 +14,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project
+This is an example of how you may give instructions on setting up your project.
 
 ## Prerequisites
 
